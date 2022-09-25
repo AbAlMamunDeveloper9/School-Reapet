@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 96%;
+    margin: 0px auto;
+    max-width: 1060px;
+}
+/*****************************************Header Area Started******************************************/
+.with-fun {
+    padding: 40px 0px;
+    background: #F0FFF0;
+}
+
+.upper-area {
+    display: flex;
+    justify-content: space-between;
+}
+.logo1 {
+    display: flex;
+}
+.logo1 a img {
+    width: 85%;
+}
+.logo1 h4 {
+    color: #56548C;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 10px;
+    text-shadow: 0px 1px 2px #56548C;
+    text-transform: capitalize;
+}
+.menu1 ul {
+    display: flex;
+    gap: 50px;
+}
+.menu1 ul li {
+    list-style: none;
+    margin: 0px;
+}
+.menu1 ul li a {
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.menu1 {
+    display: flex;
+    gap: 30px;
+}
+.menu1 .btn1 {
+    background-color: #21B573;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 22px;
+    margin-bottom: 28px;
+    border-radius: 44%;
+}
+
+
+.learn {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.learn .img3 img {
+    width: 90%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.text2 {
+    margin-top: 15px;
+}
+.text2 h5 {
+    color: #FD511A;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5px;
+}
+.text2 h2 {
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    line-height: 65px;
+    text-transform: initial;
+}
+.text2 h2 b {
+    color: #21B573;
+}
+.text2 p {
+    color: #020202;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-shadow: 0px 1px 2px #020202;
+}
+.text2 .btn2 {
+    text-transform: capitalize;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #21B573;
+	padding: 8px 22px;
+	display: inline-block;
+	border: 1px solid #000000;
+	border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-shadow: 0px 1px 2px #21B573;
+    margin-top: 16px;
+}
+/*****************************************Header Area Completed******************************************/
+
+/**************************************Student Topic Area Started***************************************/
+
+.st-topic-area {
+    padding-top: 100px;
+}
+.topic {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.topic .col-1-4 {
+    background: #F8FFFB;
+    border-radius: 10px;
+}
+.topic .col-1-4 img {
+    width: 60%;
+    cursor: pointer;
+}
+.topic .col-1-4 h4 {
+    color: #413960;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 15px 0px 0px -25px;
+}
+.topic .col-1-4 p {
+    color: #585859;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: capitalize;
+    margin: 0px 0px 0px -18px;
+}
+/**************************************Student Topic Area Completed***************************************/
+
+/**************************************online courses Area Started***************************************/
+
+.online-course {
+    padding-top: 80px;
+    background: #eee8e8;
+}
+.online-course h2 {
+    color: #413960;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.modern-psychology {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 3%;
+}
+.modern-psychology .col-1-3 img {
+    width: 85%;
+    cursor: pointer;
+}
+.modern-psychology .col-1-3 h4 {
+    color: #413960;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    margin: 8px 0px;
+}
+.modern-psychology .col-1-3 p {
+    color: #585859;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    margin: -8px 0px 12px 0px;
+}
+.modern-psychology .btn3 {
+    text-transform: capitalize;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #21B573;
+	padding: 6px 22px;
+	border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    text-shadow: 0px 1px 2px #21B573;
+}
+.calender {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 135px;
+}
+.calender .col-1-5 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+    margin-left: -30px;
+}
+.col-1-5 img {
+    width: 5%;
+    cursor: pointer;
+}
+.col-1-5 p {
+    color: #585859;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    margin-left: -57px;
+}
+/**************************************Student Topic Area Completed**************************************/
+
+/**************************************Online Course Area Started***************************************/
+.test5 {
+    margin-top: 80px;
+}
+.test5 h2 {
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+}
+.online-course .tmonial {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.tmonial .man {
+    margin-top: 8px;
+}
+.tmonial .man img {
+    width: 80%;
+}
+.tmonial .text4 p {
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px
+}
+/*****************************************Online Course Area Completed**********************************/
+/*********************************************Footer Area Started*************************************/
+
+.footer-area {
+    background-color: #282531;
+    color: #FFFFFF;
+    padding-top: 50px;
+    margin-top: 60px;
+}
+.footer-area .link2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.million p {
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 23px;
+}
+.link2 ul b {
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.link2 ul li {
+    list-style: none;
+    margin: 6px 0px;
+}
+.link2 ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+.copy p {
+    color: #CDCDCD;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 360px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+/*********************************************Footer Area Completed*************************************/
+
+
+
+
